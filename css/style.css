@@ -1,81 +1,118 @@
-html {
-  box-sizing: border-box;
-}
+	html {
+	  box-sizing: border-box;
+	}
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+	*, *:before, *:after {
+	  box-sizing: inherit;
+	}
 
-html {
-  font-size: 0.625em;
-}
+	html {
+	  font-size: 0.625em;
+	}
 
-.soc {
-  display: block;
-  font-size: 0;
-  list-style: none;
-  margin: 0;
-  padding: 48px;
-  padding: 4.8rem;
-  text-align: center;
-}
-.soc li {
-  display: inline-block;
-  margin: 12px;
-  margin: 1.2rem;
-}
-.soc a, .soc svg {
-  display: block;
-}
-.soc a {
-  position: relative;
-  height: 96px;
-  height: 9.6rem;
-  width: 96px;
-  width: 9.6rem;
-}
-.soc svg {
-  height: 100%;
-  width: 100%;
-}
-.soc em {
-  font-size: 14px;
-  line-height: 1.5;
-  margin-top: -0.75em;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
+	.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
+	  border-radius: 100%;
+	  color: #0e1a25;
+	  fill: #0e1a25;
+	  -webkit-transform: scale(1.25);
+			  transform: scale(1.25);
+	  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+	  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+	  transition: background-color 0.5s, transform 0.5s ease-out;
+	  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	}
 
-.icon-8 {
-  color: #4d3030;
-  fill: #4d3030;
-}
+	.soc {
+	  display: block;
+	  font-size: 0;
+	  list-style: none;
+	  margin: 0;
+	  padding: 48px;
+	  padding: 4.8rem;
+	  text-align: center;
+	}
+	.soc li {
+	  display: inline-block;
+	  margin: 12px;
+	  margin: 1.2rem;
+	}
+	.soc a, .soc svg {
+	  display: block;
+	}
+	.soc a {
+	  position: relative;
+	  height: 96px;
+	  height: 9.6rem;
+	  width: 96px;
+	  width: 9.6rem;
+	}
+	.soc svg {
+	  height: 100%;
+	  width: 100%;
+	}
+	.soc em {
+	  font-size: 14px;
+	  line-height: 1.5;
+	  margin-top: -0.75em;
+	  position: absolute;
+	  text-align: center;
+	  top: 50%;
+	  right: 0;
+	  bottom: 0;
+	  left: 0;
+	}
 
-.icon-13 {
-  color: #8e5545;
-  fill: #8e5545;
-}
+	.icon-8 {
+	  color: #4d3030;
+	  fill: #4d3030;
+	}
 
-.icon-14 {
-  color: #9d766e;
-  fill: #9d766e;
-}
+	.icon-8:hover {
+	  background: #4d3030;
+	}
 
-.icon-19 {
-  color: #8c6c8c;
-  fill: #8c6c8c;
-}
+	.icon-13 {
+	  color: #8e5545;
+	  fill: #8e5545;
+	}
 
-.icon-26 {
-  color: #7b507b;
-  fill: #7b507b;
-}
-.icon-28 {
-  color: #bb5dbb;
-  fill: #bb5dbb;
-}
+	.icon-13:hover {
+	  background: #8e5545;
+	}
+
+	.icon-14 {
+	  color: #9d766e;
+	  fill: #9d766e;
+	}
+
+	.icon-14:hover {
+	  background: #9d766e;
+	}
+
+	.icon-19 {
+	  color: #8c6c8c;
+	  fill: #8c6c8c;
+	}
+
+	.icon-19:hover {
+	  background: #8c6c8c;
+	}
+
+	.icon-26 {
+	  color: #7b507b;
+	  fill: #7b507b;
+	}
+
+	.icon-26:hover {
+	  background: #7b507b;
+	}
+
+	.icon-28 {
+	  color: #bb5dbb;
+	  fill: #bb5dbb;
+	}
+
+	.icon-28:hover {
+	  background: #bb5dbb;
+	}
 
