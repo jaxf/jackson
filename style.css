@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
 
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 body {
   height: 100vh;
   background-image: url("img/bg.jpeg");
@@ -212,4 +219,37 @@ h3 {
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  text-align: center;
+}
+
+.navbarheader{
+  display: flex;
+  border-radius: 10px;
+  justify-content: flex-end;
+  align-items: center;  
+  background: rgba(0, 0, 0, 0.315);
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+  color: white;
+}
+
+.nav_links li a hover {
+  color: #0088a9
 }
